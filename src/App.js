@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home.js';
 import Header from './components/header.js';
 import About from './components/about.js';
@@ -6,6 +6,8 @@ import Projects from './components/project.js';
 import Resume from './components/resume.js';
 import Video from './components/VideoBackground.js';
 import Footer from './components/footer.js';
+import React from 'react';
+
 
 function App() {
   return (
