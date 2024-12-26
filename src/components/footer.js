@@ -20,7 +20,7 @@ export default function footer() {
           </div>
     
           <div class="insta">
-            <a href="https://www.instagram.com/priyanshigupta_7234"><img src= {instaImage} alt="Insta"/></a>
+            <a href="https://www.instagram.com/priyanshigupta_124"><img src= {instaImage} alt="Insta"/></a>
           </div>
     
           <div class="git">
