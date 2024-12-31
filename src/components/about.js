@@ -180,7 +180,7 @@ const about = () => (
                         <article className="card">
                             <h1>Django</h1>
                             <span className="skill-per nodejs">
-                                <span className="tooltip">30%</span>
+                                <span className="tooltip">65%</span>
                             </span>                            
                         </article>
                     </div>
