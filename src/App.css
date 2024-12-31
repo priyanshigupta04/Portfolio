@@ -645,7 +645,9 @@ font-style: normal;
   margin: 0 auto;
 }
 .project .card {
-  
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Stacks the image and content vertically */
+  height: 400px; /* Sets a consistent height for all cards */
   border: none;
   background-color: white;
   border-radius: 8px;
@@ -657,15 +659,20 @@ font-style: normal;
   transform: translateY(-5px);
 }
 .project .card-image {
-  width: 100%;
-  height: 200px;
-  object-fit:fill;
+  height: 65%; /* Image takes 50% of the card height */
+  width: 100%; /* Spans the full width */
+  object-fit: cover; /* Maintains the aspect ratio of the image */
   display: block;
-  padding: 10px;
 }
+
 .project .card-content {
+  height: 35%; /* Content takes the remaining 50% of the card height */
   padding: 20px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers the content vertically */
+  align-items: center; /* Centers the content horizontally */
+  text-align: center; /* Centers text inside the content area */
 }
 .project .card-description {
   color: #333;
